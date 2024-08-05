@@ -1,5 +1,6 @@
 command = ""
 started = False
+print("Welcome to Car Game! Type 'help' for instructions.")
 
 while True:
     command = input(">").lower()
@@ -22,6 +23,7 @@ while True:
         else:
             print("Car already stopped.")
     elif command == "quit":
+        print("Thanks for playing!")
         break
     else:
         print("I don't understand that...")
